@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { jynWhite, whatsApp } from "../../../public/assets/shared";
+import { jynWhite, whatsApp } from "../../assets/shared";
 
 export const Header: FC = () => {
   return (
