@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "url": "/src/assets/sliders/asesoria.png",
+    "text": "¿Has sido víctima por responsabilidad de otros?"
+  },
+  {
+    "id": 2,
+    "url": "/src/assets/sliders/accidente.webp",
+    "text": "¿Tu o algún familiar ha sido víctima de accidente de transito?"
+    },
+  {
+    "id": 3,
+    "url": "/src/assets/sliders/lesionado.webp",
+    "text": "¿Haz resultado lesionado en algún establecimiento público?"
+  }
+]
