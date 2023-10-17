@@ -3,7 +3,7 @@ import { FC, useEffect, useRef, useState } from "react";
 import data from "./dataSlider.json";
 import { TextBanner } from "../../../../components/TextBanner";
 
-interface dataProps {
+interface DataProps {
   id: number;
   url: string;
   text: string;
@@ -46,7 +46,7 @@ export const Hero: FC = () => {
 
   return (
     <section
-      className="overflow-hidden max-w-5xl w-full m-auto h-auto mt-12"
+      className="overflow-hidden max-w-5xl w-full m-auto h-auto mt-64"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       ref={bannerRef}
@@ -57,7 +57,7 @@ export const Hero: FC = () => {
         }`}
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
-        {data.map((item: dataProps) => (
+        {data.map((item: DataProps) => (
           <div key={item.id} className={`w-full flex-shrink-0 relative`}>
             <img
               src={item.url}

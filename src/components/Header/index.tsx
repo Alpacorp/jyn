@@ -3,7 +3,7 @@ import { jynWhite, whatsApp } from "../../assets/shared";
 
 export const Header: FC = () => {
   return (
-    <header className="flex justify-around items-center sticky top-0 w-full bg-main z-40">
+    <header className="flex justify-around items-center fixed top-0 w-full bg-main z-40">
       <div>
         <img
           src={jynWhite}
