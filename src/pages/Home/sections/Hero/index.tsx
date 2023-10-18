@@ -1,7 +1,8 @@
 import { FC, useEffect, useRef, useState } from "react";
 
-import data from "./dataSlider.json";
 import { TextBanner } from "../../../../components/TextBanner";
+
+import data from "./dataSlider.json";
 
 interface DataProps {
   id: number;
@@ -46,7 +47,7 @@ export const Hero: FC = () => {
 
   return (
     <section
-      className="overflow-hidden max-w-5xl w-full m-auto h-auto mt-64"
+      className="overflow-hidden h-auto mt-48"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       ref={bannerRef}

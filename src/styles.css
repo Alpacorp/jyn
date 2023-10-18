@@ -2,6 +2,163 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Martel Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/martel/Martel-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Martel Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/martel/Martel-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Martel ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./assets/fonts/martel/Martel-ExtraBold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Martel ExtraLight';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/martel/Martel-ExtraLight.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Martel Light';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./assets/fonts/martel/Martel-Light.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Martel Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/martel/Martel-Black.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Martel SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/martel/Martel-SemiBold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/rubik/Rubik-Black.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Black Italic";
+  font-style: italic;
+  font-weight: 900;
+  src: url('./assets/fonts/rubik/Rubik-BlackItalic.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/rubik/Rubik-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Bold Italic";
+  font-style: italic;
+  font-weight: 700;
+  src: url('./assets/fonts/rubik/Rubik-BoldItalic.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url('./assets/fonts/rubik/Rubik-Italic.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/rubik/Rubik-Light.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Light Italic";
+  font-style: italic;
+  font-weight: 300;
+  src: url('./assets/fonts/rubik/Rubik-LightItalic.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/rubik/Rubik-Medium.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Medium Italic";
+  font-style: italic;
+  font-weight: 500;
+  src: url('./assets/fonts/rubik/Rubik-MediumItalic.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/rubik/Rubik-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/rubik/Rubik-SemiBold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "Rubik SemiBold Italic";
+  font-style: italic;
+  font-weight: 600;
+  src: url('./assets/fonts/rubik/Rubik-SemiBoldItalic.ttf'); /* IE9 Compat Modes */
+}
+
+
+:root {
+  --font-martel-regular: 'Martel Regular';
+  --font-martel-bold: 'Martel Bold';
+  --font-martel-extrabold: 'Martel ExtraBold';
+  --font-martel-extralight: 'Martel ExtraLight';
+  --font-martel-light: 'Martel Light';
+  --font-martel-black: 'Martel Black';
+  --font-martel-semibold: 'Martel SemiBold';
+  --font-rubik-black: 'Rubik Black';
+  --font-rubik-black-italic: 'Rubik Black Italic';
+  --font-rubik-bold: 'Rubik Bold';
+  --font-rubik-bold-italic: 'Rubik Bold Italic';
+  --font-rubik-italic: 'Rubik Italic';
+  --font-rubik-light: 'Rubik Light';
+  --font-rubik-light-italic: 'Rubik Light Italic';
+  --font-rubik-medium: 'Rubik Medium';
+  --font-rubik-medium-italic: 'Rubik Medium Italic';
+  --font-rubik-regular: 'Rubik Regular';
+  --font-rubik-semibold: 'Rubik SemiBold';
+  --font-rubik-semibold-italic: 'Rubik SemiBold Italic';
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +171,5 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f5f5f5;
+  font-family: var(--font-rubik-regular);
 }

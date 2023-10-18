@@ -9,7 +9,9 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <main>
       <Header />
-      {children}
+      <div className="max-w-screen-lg w-full mx-auto px-3 max-[500px]:px-5">
+        {children}
+      </div>
     </main>
   );
 };

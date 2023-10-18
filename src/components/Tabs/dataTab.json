@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "tab": "Quienes Somos",
+    "description": [
+      {
+        "id": "1A",
+        "description": "J&N Abogados, una firma legal líder en Colombia, se especializa en brindar asesoría y representación jurídica a víctimas de Responsabilidad Civil Extracontractual."
+      },
+      {
+        "id": "1B",
+        "description": "Con una profunda comprensión de las complejidades legales y empatía hacia quienes han sufrido perjuicios como daños materiales, lesiones o pérdidas de seres queridos en estos lamentables eventos, nuestro equipo de abogados está comprometido en buscar soluciones extrajudiciales justas para nuestros clientes."
+      },
+      {
+        "id": "1C",
+        "description": "Nuestra firma se distingue por su enfoque integral, ofreciendo apoyo a las familias en momentos difíciles. Con la experiencia y conocimiento acumulados a lo largo de los años, J&N Abogados ha ganado la confianza de la comunidad y se esfuerza por lograr la máxima compensación posible para quienes han sufrido tragedias como resultado de la responsabilidad de otros."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tab": "Misión",
+    "description": [
+      {
+        "id": "2A",
+        "description": "La misión primordial de J&N Abogados es garantizar compensaciones equitativas y la maximización de recursos en casos de Responsabilidad Civil Extracontractual. Nuestro compromiso es proporcionar apoyo legal sólido y asegurar la plena aplicación de la ley en beneficio de las víctimas."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tab": "Visión",
+    "description": [
+      {
+        "id": "3A",
+        "description": "Nuestra visión en J&N Abogados es ser la firma líder en Colombia en la representación de víctimas de Responsabilidad Civil Extracontractual. Buscamos ofrecer soluciones legales excepcionales, obteniendo compensaciones justas para nuestros clientes y promoviendo la justicia en cada caso. Nos esforzamos por ser reconocidos por nuestra ética, excelencia y compromiso en la defensa de los derechos de las víctimas."
+      }
+    ]
+  }
+]
