@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Advisory: FC = () => {
+export const AdvisoryIcon: FC = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

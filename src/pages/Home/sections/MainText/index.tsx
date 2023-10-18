@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Square } from "../../../../components/Icons/Square";
+import { SquareIcon } from "../../../../components/Icons/SquareIcon";
 
 export const MainText: FC = () => {
   return (
@@ -12,7 +12,7 @@ export const MainText: FC = () => {
       <h3 className="text-2xl text-secondary font-bold font-martelRegular my-8">
         Te damos la asesoría y representación jurídica
       </h3>
-      <Square />
+      <SquareIcon />
     </section>
   );
 };

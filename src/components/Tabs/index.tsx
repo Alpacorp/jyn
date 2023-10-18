@@ -22,7 +22,7 @@ export const Tabs: FC = () => {
         ))}
       </div>
       {dataTab.map((tab, index) => (
-        <div key={tab.id} className="my-6">
+        <div key={tab.id} className="my-6 h-auto">
           {activeTab === index && (
             <div>
               {tab.description.map((description) => (

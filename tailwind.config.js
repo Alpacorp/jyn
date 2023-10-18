@@ -10,6 +10,8 @@ export default {
         secondary: "#9B658B",
         gray: "#DFDFDF",
         nude: "#FFF3FF",
+        pink: "#D98AC1",
+        ligth: "#9F688F",
       },
       fontFamily: {
         martelRegular: ["var(--font-martel-regular)"],

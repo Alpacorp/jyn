@@ -1,48 +1,54 @@
-import { Advisory } from "../../../../../components/Icons/Advisory";
+import { AdvisoryIcon } from "../../../../../components/Icons/AdvisoryIcon";
+import { FeeIcon } from "../../../../../components/Icons/FeeIcon";
+import { GearIcon } from "../../../../../components/Icons/GearIcon";
+import { HandsIcon } from "../../../../../components/Icons/HandsIcon";
+import { MapIcon } from "../../../../../components/Icons/MapIcon";
+import { TimeIcon } from "../../../../../components/Icons/TimeIcon";
 
 export const useDataTrustUs = () => {
   const dataTrustUs = [
     {
       id: 1,
-      icon: <Advisory />,
+      icon: <AdvisoryIcon />,
       title: "Asesoría Jurídica Gratuita",
       description:
         "Ofrecemos asesoría jurídica sin costo, permitiendo a los clientes comprender sus derechos y opciones antes de tomar decisiones importantes.",
     },
     {
       id: 2,
-      icon: <Advisory />,
-      title: "Asesoría Jurídica Gratuita",
+      icon: <MapIcon />,
+      title: "Cobertura Nacional",
       description:
-        "Ofrecemos asesoría jurídica sin costo, permitiendo a los clientes comprender sus derechos y opciones antes de tomar decisiones importantes.",
+        "Brindamos servicios legales en todo el territorio colombiano, asegurando que las víctimas de accidentes de tránsito tengan acceso a representación de alta calidad en cualquier lugar del país.",
     },
     {
       id: 3,
-      icon: <Advisory />,
-      title: "Asesoría Jurídica Gratuita",
+      icon: <GearIcon />,
+      title: "Servicio Personalizado",
       description:
-        "Ofrecemos asesoría jurídica sin costo, permitiendo a los clientes comprender sus derechos y opciones antes de tomar decisiones importantes.",
+        "Garantizamos un enfoque individualizado para cada cliente, reconociendo que cada caso es único y adaptando las estrategias legales en consecuencia.",
     },
     {
       id: 4,
-      icon: <Advisory />,
-      title: "Asesoría Jurídica Gratuita",
+      icon: <TimeIcon />,
+      title: "Transparencia y Comunicación",
       description:
-        "Ofrecemos asesoría jurídica sin costo, permitiendo a los clientes comprender sus derechos y opciones antes de tomar decisiones importantes.",
+        "Mantenemos una comunicación clara y abierta con los clientes, proporcionándoles información actualizada sobre el progreso de sus casos y los pasos a seguir.",
     },
     {
       id: 5,
-      icon: <Advisory />,
-      title: "Asesoría Jurídica Gratuita",
+      shadow: true,
+      icon: <HandsIcon />,
+      title: "Resultados Justos y Máxima Compensación",
       description:
-        "Ofrecemos asesoría jurídica sin costo, permitiendo a los clientes comprender sus derechos y opciones antes de tomar decisiones importantes.",
+        "J&N Abogados se enfoca en aplicar nuestros recursos y experiencia para asegurar compensaciones justas y máximas en casos de Responsabilidad Civil Extracontractual. Buscamos brindar apoyo y alivio a las víctimas, haciendo realidad el principio de justicia que perseguimos incansablemente.",
     },
     {
       id: 6,
-      icon: <Advisory />,
-      title: "Asesoría Jurídica Gratuita",
+      icon: <FeeIcon />,
+      title: "Honorarios",
       description:
-        "Ofrecemos asesoría jurídica sin costo, permitiendo a los clientes comprender sus derechos y opciones antes de tomar decisiones importantes.",
+        "Nuestros honorarios legales están sujetos al éxito del caso, lo que significa que solo se cobran si logramos obtener una compensación para nuestros clientes, alineando nuestros intereses con los de ellos.",
     },
   ];
 

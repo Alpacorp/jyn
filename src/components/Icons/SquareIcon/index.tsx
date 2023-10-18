@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Square: FC = () => {
+export const SquareIcon: FC = () => {
   return (
     <div className="flex justify-center">
       <svg
