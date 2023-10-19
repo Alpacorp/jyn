@@ -47,27 +47,30 @@ export const Hero: FC = () => {
 
   return (
     <section
-      className="overflow-hidden h-auto mt-48"
+      className="overflow-hidden h-auto mt-48 rounded-xl"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       ref={bannerRef}
     >
       <div
-        className={`flex transition-transform duration-1000 h-72 ${
+        className={`flex transition-transform duration-1000 h-72 rounded-xl ${
           isTransitioning ? "pointer-events-none" : ""
         }`}
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {data.map((item: DataProps) => (
-          <div key={item.id} className={`w-full flex-shrink-0 relative`}>
+          <div
+            key={item.id}
+            className={`w-full flex-shrink-0 relative rounded-xl`}
+          >
             <img
               src={item.url}
               alt={item.text}
-              className="h-full object-cover m-auto max-[380px]:object-center max-[320px]:object-top"
+              className="h-full object-cover m-auto rounded-xl max-[380px]:object-center max-[320px]:object-top"
             />
             {showText && (
               <div
-                className={`absolute z-40 bottom-0 left-0 right-0 m-auto p-4 text-center text-white leading-tight font-poppins max-w-[54rem] ${
+                className={`absolute z-40 bottom-0 left-0 right-0 m-auto p-4 text-center text-white leading-tight font-poppins max-w-[54rem] rounded-xl ${
                   animateText ? "animate-fade-in-bottom delay-1000" : ""
                 }`}
               >
@@ -78,12 +81,12 @@ export const Hero: FC = () => {
                     url: item.url,
                   }}
                   customClass={
-                    "text-2xl font-normal max-[380px]:text-lg max-[320px]:text-md max-[380px]:leading-6 max-[320px]:leading-5"
+                    "text-2xl font-normal rounded-xl max-[380px]:text-lg max-[320px]:text-md max-[380px]:leading-6 max-[320px]:leading-5"
                   }
                 />
               </div>
             )}
-            <div className="absolute z-10 inset-0 bg-gradient-to-t from-main to-transparent" />
+            <div className="absolute z-10 inset-0 bg-gradient-to-t from-main to-transparent rounded-xl" />
           </div>
         ))}
       </div>
