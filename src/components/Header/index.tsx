@@ -32,12 +32,14 @@ export const Header: FC = () => {
         />
       </div>
       <div>
-        <img
-          className="w-9 h-9 m-3"
-          src={whatsApp}
-          alt="WhatsApp"
-          title="Contáctanos"
-        />
+        <a href="#" target="_blank">
+          <img
+            className="w-9 h-9 m-3"
+            src={whatsApp}
+            alt="WhatsApp"
+            title="Contáctanos"
+          />
+        </a>
       </div>
     </header>
   );

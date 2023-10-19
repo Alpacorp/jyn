@@ -12,6 +12,7 @@ export default {
         nude: "#FFF3FF",
         pink: "#D98AC1",
         ligth: "#9F688F",
+        dark: "#350025",
       },
       fontFamily: {
         martelRegular: ["var(--font-martel-regular)"],
