@@ -6,133 +6,133 @@
   font-family: 'Martel Regular';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/martel/Martel-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-Regular.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: 'Martel Bold';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/martel/Martel-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-Bold.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: 'Martel ExtraBold';
   font-style: normal;
   font-weight: 800;
-  src: url('./assets/fonts/martel/Martel-ExtraBold.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-ExtraBold.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: 'Martel ExtraLight';
   font-style: normal;
   font-weight: 300;
-  src: url('./assets/fonts/martel/Martel-ExtraLight.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-ExtraLight.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: 'Martel Light';
   font-style: normal;
   font-weight: 200;
-  src: url('./assets/fonts/martel/Martel-Light.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-Light.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Martel Black";
   font-style: normal;
   font-weight: 900;
-  src: url('./assets/fonts/martel/Martel-Black.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-Black.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Martel SemiBold";
   font-style: normal;
   font-weight: 600;
-  src: url('./assets/fonts/martel/Martel-SemiBold.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/martel/Martel-SemiBold.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Black";
   font-style: normal;
   font-weight: 900;
-  src: url('./assets/fonts/rubik/Rubik-Black.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-Black.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Black Italic";
   font-style: italic;
   font-weight: 900;
-  src: url('./assets/fonts/rubik/Rubik-BlackItalic.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-BlackItalic.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Bold";
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/rubik/Rubik-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-Bold.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Bold Italic";
   font-style: italic;
   font-weight: 700;
-  src: url('./assets/fonts/rubik/Rubik-BoldItalic.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-BoldItalic.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Italic";
   font-style: italic;
   font-weight: 400;
-  src: url('./assets/fonts/rubik/Rubik-Italic.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-Italic.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Light";
   font-style: normal;
   font-weight: 300;
-  src: url('./assets/fonts/rubik/Rubik-Light.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-Light.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Light Italic";
   font-style: italic;
   font-weight: 300;
-  src: url('./assets/fonts/rubik/Rubik-LightItalic.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-LightItalic.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Medium";
   font-style: normal;
   font-weight: 500;
-  src: url('./assets/fonts/rubik/Rubik-Medium.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-Medium.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Medium Italic";
   font-style: italic;
   font-weight: 500;
-  src: url('./assets/fonts/rubik/Rubik-MediumItalic.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-MediumItalic.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik Regular";
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/rubik/Rubik-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-Regular.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik SemiBold";
   font-style: normal;
   font-weight: 600;
-  src: url('./assets/fonts/rubik/Rubik-SemiBold.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-SemiBold.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-family: "Rubik SemiBold Italic";
   font-style: italic;
   font-weight: 600;
-  src: url('./assets/fonts/rubik/Rubik-SemiBoldItalic.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/rubik/Rubik-SemiBoldItalic.ttf'); /* IE9 Compat Modes */
 }
 
 

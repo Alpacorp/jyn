@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Title } from "../../../../components/Title";
 import { SquareIcon } from "../../../../components/Icons/SquareIcon";
-import { whatsApp } from "../../../../assets/shared";
+import { whatsApp } from "../../../../../public/assets/shared";
 
 export const WriteUs: FC = () => {
   return (

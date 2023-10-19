@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { jynWhite } from "../../assets/shared";
+import { jynWhite } from "../../../public/assets/shared";
 
 export const Footer: FC = () => {
   return (
