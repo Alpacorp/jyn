@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Header } from "../components/Header";
 import { TrustUs } from "../pages/Home/sections/TrustUs";
 import { Kinds } from "../pages/Home/sections/Kinds";
+import { Reviews } from "../pages/Home/sections/Reviews";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -16,6 +17,7 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
       </div>
       <TrustUs />
       <Kinds />
+      <Reviews />
     </main>
   );
 };

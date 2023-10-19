@@ -1,9 +1,28 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import { jynWhite, whatsApp } from "../../assets/shared";
 
 export const Header: FC = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      if (scrolled !== isScrolled) {
+        setIsScrolled(scrolled);
+      }
+    };
+    document.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [isScrolled]);
+
   return (
-    <header className="flex justify-around items-center fixed top-0 w-full bg-main z-40">
+    <header
+      className={`flex justify-around items-center fixed top-0 w-full bg-main z-40 ${
+        isScrolled ? "shadow-md" : ""
+      }`}
+    >
       <div>
         <img
           src={jynWhite}

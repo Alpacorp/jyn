@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "category": "Tipo de Responsabilidad Civil",
+    "type": "Accidentes de Transito",
+    "review": "El servicio fue muy bueno, no tengo queja alguna, todo salió tal cual me dijeron",
+    "name": "Martha Cecilia"
+  },
+  {
+    "id": 2,
+    "category": "Tipo de Responsabilidad Civil",
+    "type": "Accidentes de Transito",
+    "review": "Desde el principio los doctores te aclaran todas las dudas con su asesoría. Obtuve justo lo que esperaba y me dijeron",
+    "name": "Samir Cervantes"
+  },
+  {
+    "id": 3,
+    "category": "Tipo de Responsabilidad Civil",
+    "type": "Accidentes de Transito",
+    "review": "Me senti muy apoyada con el servicio de los abogados, su calidad humana es excelente, grandes profesionales",
+    "name": "Angie Penagos"
+  }
+]

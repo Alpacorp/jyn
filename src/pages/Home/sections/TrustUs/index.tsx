@@ -11,7 +11,7 @@ export const TrustUs: FC = () => {
       <div className="max-w-screen-lg w-full mx-auto px-3 max-[500px]:px-5">
         <Title className="text-main mb-4">¿Por qué confiar en nosotros?</Title>
         <SquareIcon />
-        <div className="flex flex-wrap justify-between gap-7 mt-7">
+        <div className="flex flex-wrap justify-center gap-7 mt-7">
           {dataTrustUs.map((item) => (
             <div
               key={item.id}

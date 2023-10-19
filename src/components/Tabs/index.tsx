@@ -10,7 +10,7 @@ export const Tabs: FC = () => {
         {dataTab.map((tab, index) => (
           <button
             key={tab.id}
-            className={`text-lg font-rubikRegular h-12 text-main mx-4 hover:text-main hover:underline hover:underline-main hover:underline-offset-[14px] decoration-4 transition-all duration-300
+            className={`text-lg font-rubikRegular h-12 text-main mx-4 hover:text-main hover:underline hover:underline-main hover:underline-offset-[14px] decoration-4
             ${
               activeTab === index &&
               "font-rubikSemiBold underline underline-main underline-offset-[15px]"
