@@ -7,7 +7,7 @@ import { useIntersection } from "../../../../hooks/useIntersection";
 export const Kinds: FC = () => {
   const { dataKind } = useDataKind();
 
-  const isVisible = useIntersection(0.4, "kind");
+  const isVisible = useIntersection(0.3, "kind");
 
   return (
     <section id="kind" className="text-center bg-main py-12">

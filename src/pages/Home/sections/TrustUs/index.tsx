@@ -7,7 +7,7 @@ import { useIntersection } from "../../../../hooks/useIntersection";
 export const TrustUs: FC = () => {
   const { dataTrustUs } = useDataTrustUs();
 
-  const isVisible = useIntersection(0.4, "trust");
+  const isVisible = useIntersection(0.3, "trust");
 
   return (
     <section id="trust" className="text-center bg-nude py-12">
@@ -19,12 +19,12 @@ export const TrustUs: FC = () => {
             <div
               key={item.id}
               className={`max-w-[300px] w-full border border-main rounded-lg flex flex-col items-center p-4 justify-start ${
-                item.shadow && "bg-main"
-              } ${
                 isVisible
                   ? "opacity-100 transform translate-y-0 transition ease-in duration-500"
                   : "opacity-0 transform translate-y-20"
-              }`}
+              }
+              ${item.shadow && "bg-main"}
+              `}
             >
               <div className="flex justify-center">{item.icon}</div>
               <h3

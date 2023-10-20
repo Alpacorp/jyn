@@ -27,7 +27,9 @@ export const Reviews: FC = () => {
 
   return (
     <section className="relative text-center overflow-hidden py-12 h-auto bg-gradient-to-t from-main to-transparent">
-      <Title className="text-main mb-4">¿Por qué confiar en nosotros?</Title>
+      <Title className="text-main mb-4">
+        Conoce algunos testimonios <span className="text-ligth">reales</span>
+      </Title>
       <SquareIcon />
       <div
         className={`flex transition-transform duration-1000 h-[500px]`}
