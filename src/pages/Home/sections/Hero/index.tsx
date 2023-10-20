@@ -37,7 +37,7 @@ export const Hero: FC = () => {
         goToNextSlide();
         handleSlideTextAnimation();
       }
-    }, 7000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [isHovered, isTransitioning]);
 

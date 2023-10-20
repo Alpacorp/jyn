@@ -8,7 +8,7 @@ import { Title } from "../../../../components/Title";
 import { SquareIcon } from "../../../../components/Icons/SquareIcon";
 
 export const Reviews: FC = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
@@ -44,17 +44,17 @@ export const Reviews: FC = () => {
               <h3 className="text-lg font-rubikRegular text-main my-3">
                 {item.type}
               </h3>
-              <div className="bg-white rounded-xl max-w-[400px] w-full">
-                <div className="flex justify-center mr-20">
+              <div className="bg-white rounded-xl max-w-[400px] w-full px-1">
+                <div className="flex justify-start ml-4 mb-2 mt-10">
                   <OpenQuote />
                 </div>
-                <blockquote className="text-xl font-rubikRegular">
+                <blockquote className="text-xl font-rubikItalic leading-5">
                   {item.review}
                 </blockquote>
-                <div className="flex justify-center ml-20">
+                <div className="flex justify-end mr-4 mt-2 mb-10">
                   <CloseQuote />
                 </div>
-                <div className="bg-main rounded-b-xl">
+                <div className="bg-main rounded-b-xl relative bottom-0">
                   <p className="text-base font-rubikItalic text-white">
                     {item.name}
                   </p>
@@ -65,20 +65,20 @@ export const Reviews: FC = () => {
         ))}
       </div>
       <button
-        className="absolute top-1/3 left-5 transform -translate-y-1/2 max-[480px]:left-2"
+        className="absolute top-1/2 left-5 transform -translate-y-1/2 max-[480px]:left-2"
         onClick={() => {
           goToPrevSlide();
         }}
       >
-        <Arrow className="rotate-180 max-[480px]:w-10" />
+        <Arrow className="rotate-180 w-10" />
       </button>
       <button
-        className="absolute top-1/3 right-5 transform -translate-y-1/2 max-[480px]:right-2"
+        className="absolute top-1/2 right-5 transform -translate-y-1/2 max-[480px]:right-2"
         onClick={() => {
           goToNextSlide();
         }}
       >
-        <Arrow className="max-[480px]:w-10" />
+        <Arrow className="w-10" />
       </button>
     </section>
   );

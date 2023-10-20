@@ -2,12 +2,15 @@ import { FC } from "react";
 import { Title } from "../../../../components/Title";
 import { SquareIcon } from "../../../../components/Icons/SquareIcon";
 import { useDataKind } from "./hooks/useDataKind";
+import { useIntersection } from "../../../../hooks/useIntersection";
 
 export const Kinds: FC = () => {
   const { dataKind } = useDataKind();
 
+  const isVisible = useIntersection(0.4, "kind");
+
   return (
-    <section className="text-center bg-main py-12">
+    <section id="kind" className="text-center bg-main py-12">
       <div className="max-w-screen-lg w-full mx-auto px-10 max-[500px]:px-5">
         <Title className="text-white mb-4">
           Reconoce tu caso{" "}
@@ -16,7 +19,14 @@ export const Kinds: FC = () => {
         <SquareIcon />
         <div className="flex flex-wrap justify-center gap-7 mt-7">
           {dataKind.map((item) => (
-            <div key={item.id} className="max-w-[400px] w-full rounded-lg">
+            <div
+              key={item.id}
+              className={`max-w-[400px] w-full rounded-lg ${
+                isVisible
+                  ? "opacity-100 transform translate-y-0 transition ease-in duration-500"
+                  : "opacity-0 transform translate-y-20"
+              }`}
+            >
               <div className="bg-ligth text-center flex items-center justify-center p-5 gap-3 rounded-t-lg">
                 <div className="w-14 h-14 bg-white flex justify-center items-center rounded-lg">
                   {item.icon}

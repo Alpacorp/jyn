@@ -2,13 +2,16 @@ import { FC } from "react";
 import { Title } from "../../../../components/Title";
 import { SquareIcon } from "../../../../components/Icons/SquareIcon";
 import { useDataTrustUs } from "./hooks/useDataTrustUs";
+import { useIntersection } from "../../../../hooks/useIntersection";
 
 export const TrustUs: FC = () => {
   const { dataTrustUs } = useDataTrustUs();
 
+  const isVisible = useIntersection(0.4, "trust");
+
   return (
-    <section className="text-center bg-nude py-12">
-      <div className="max-w-screen-lg w-full mx-auto px-3 max-[500px]:px-5">
+    <section id="trust" className="text-center bg-nude py-12">
+      <div className={`max-w-screen-lg w-full mx-auto px-3 max-[500px]:px-5`}>
         <Title className="text-main mb-4">¿Por qué confiar en nosotros?</Title>
         <SquareIcon />
         <div className="flex flex-wrap justify-center gap-7 mt-7">
@@ -17,6 +20,10 @@ export const TrustUs: FC = () => {
               key={item.id}
               className={`max-w-[300px] w-full border border-main rounded-lg flex flex-col items-center p-4 justify-start ${
                 item.shadow && "bg-main"
+              } ${
+                isVisible
+                  ? "opacity-100 transform translate-y-0 transition ease-in duration-500"
+                  : "opacity-0 transform translate-y-20"
               }`}
             >
               <div className="flex justify-center">{item.icon}</div>
