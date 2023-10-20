@@ -7,7 +7,7 @@ import { useIntersection } from "../../../../hooks/useIntersection";
 export const TrustUs: FC = () => {
   const { dataTrustUs } = useDataTrustUs();
 
-  const isVisible = useIntersection(0.3, "trust");
+  const isVisible = useIntersection(0.2, "trust");
 
   return (
     <section id="trust" className="text-center bg-nude py-12">
