@@ -1,12 +1,12 @@
 import { FC, useEffect, useRef, useState } from "react";
 
-import { TextBanner } from "../../../../components/TextBanner";
-
 import data from "./dataSlider.json";
+import { TextBanner } from "../../../../components/TextBanner";
 
 interface DataProps {
   id: number;
-  url: string;
+  urlDesktop: string;
+  urlMobile: string;
   text: string;
 }
 
@@ -64,9 +64,14 @@ export const Hero: FC = () => {
             className={`w-full flex-shrink-0 relative rounded-xl`}
           >
             <img
-              src={item.url}
+              src={item.urlDesktop}
               alt={item.text}
-              className="h-full object-cover m-auto rounded-xl max-[380px]:object-center max-[320px]:object-top"
+              className="h-full object-cover m-auto rounded-xl max-[345px]:hidden"
+            />
+            <img
+              src={item.urlMobile}
+              alt={item.text}
+              className="h-full hidden object-cover m-auto rounded-xl max-[345px]:block"
             />
             {showText && (
               <div
@@ -78,7 +83,6 @@ export const Hero: FC = () => {
                   content={{
                     id: item.id,
                     text: item.text,
-                    url: item.url,
                   }}
                   customClass={
                     "text-2xl font-normal rounded-xl max-[380px]:text-lg max-[320px]:text-md max-[380px]:leading-6 max-[320px]:leading-5"

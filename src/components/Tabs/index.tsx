@@ -26,7 +26,7 @@ export const Tabs: FC = () => {
           {activeTab === index && (
             <div>
               {tab.description.map((description) => (
-                <p className="my-2" key={description.id}>
+                <p className="my-2 text-center  " key={description.id}>
                   {description.description}
                 </p>
               ))}

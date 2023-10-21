@@ -3,7 +3,6 @@ import { FC } from "react";
 interface TextBannerProps {
   content: {
     id: number;
-    url: string;
     text: string;
   };
   customClass?: string;
