@@ -31,7 +31,7 @@ export const Kinds: FC = () => {
                 <div className="w-14 h-14 bg-white flex justify-center items-center rounded-lg">
                   {item.icon}
                 </div>
-                <h3 className="text-xl text-white text-left font-rubikSemiBold">
+                <h3 className="text-xl text-white text-center font-rubikSemiBold">
                   {item.title}
                 </h3>
               </div>
