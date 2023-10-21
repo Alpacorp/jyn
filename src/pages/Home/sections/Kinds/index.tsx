@@ -35,12 +35,15 @@ export const Kinds: FC = () => {
                   {item.title}
                 </h3>
               </div>
-              <div className="bg-white h-60 overflow-y-auto rounded-b-lg">
+              <div className="bg-white h-60 overflow-y-scroll rounded-b-lg">
                 <div className="text-main font-rubikRegular p-4">
                   {item.description.map((text) => (
-                    <p key={text} className="my-2 text-left">
-                      {text}
-                    </p>
+                    <div key={text.idSub} className="my-2 text-left">
+                      <h4 className="text-left text-main font-rubikSemiBold">
+                        {text.subtitle}
+                      </h4>
+                      <p className="text-left">{text.content}</p>
+                    </div>
                   ))}
                 </div>
               </div>

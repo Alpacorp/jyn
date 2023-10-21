@@ -23,10 +23,10 @@
   "include": ["src", "public/assets"],
   "references": [{ "path": "./tsconfig.node.json" }],
   "paths": {
-    "@pages/*": ["src/pages/*"],
-    "@containers/*": ["src/containers/*"],
-    "@components/*": ["src/components/*"],
-    "@assets/*": ["src/assets/*"],
-    "@public/*": ["public/*"],
+    "@pages/*": ["./src/pages/*"],
+    "@containers/*": ["./src/containers/*"],
+    "@components/*": ["./src/components/*"],
+    "@assets/*": ["./src/assets/*"],
+    "@/public/*": ["./public/*"],
   }
 }

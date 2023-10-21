@@ -23,6 +23,7 @@ export function useIntersection(threshold: number, idElement: string) {
     return () => {
       observer.disconnect();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return isVisible;
