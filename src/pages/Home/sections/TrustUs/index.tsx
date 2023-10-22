@@ -18,7 +18,9 @@ export const TrustUs: FC = () => {
           {dataTrustUs.map((item) => (
             <div
               key={item.id}
-              className={`max-w-[300px] w-full border border-main rounded-lg flex flex-col items-center p-4 justify-start ${
+              className={`max-w-[300px] w-full border border-main rounded-lg flex flex-col items-center p-4 justify-start
+                hover:shadow-xl hover:scale-105 transition-all duration-100
+              ${
                 isVisible
                   ? "opacity-100 transform translate-y-0 transition ease-in duration-500"
                   : "opacity-0 transform translate-y-20"

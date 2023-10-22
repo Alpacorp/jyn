@@ -2,6 +2,7 @@ import { FC, useEffect, useRef, useState } from "react";
 
 import data from "./dataSlider.json";
 import { TextBanner } from "../../../../components/TextBanner";
+import { Title } from "../../../../components/Title";
 
 interface DataProps {
   id: number;
@@ -52,6 +53,9 @@ export const Hero: FC = () => {
       onMouseLeave={() => setIsHovered(false)}
       ref={bannerRef}
     >
+      <Title className="text-main font-rubikRegular text-center text-lg mb-4">
+        NUESTRA EXPERIENCIA ES TU SEGURIDAD LEGAL
+      </Title>
       <div
         className={`flex transition-transform duration-1000 h-72 rounded-xl ${
           isTransitioning ? "pointer-events-none" : ""
@@ -66,12 +70,12 @@ export const Hero: FC = () => {
             <img
               src={item.urlDesktop}
               alt={item.text}
-              className="h-full object-cover m-auto rounded-xl max-[345px]:hidden"
+              className="h-full w-full object-cover m-auto rounded-xl max-[450px]:hidden"
             />
             <img
               src={item.urlMobile}
               alt={item.text}
-              className="h-full hidden object-cover m-auto rounded-xl max-[345px]:block"
+              className="h-full hidden w-full object-cover m-auto rounded-xl max-[450px]:block"
             />
             {showText && (
               <div
