@@ -149,6 +149,7 @@
   --font-rubik-bold: 'Rubik Bold';
   --font-rubik-bold-italic: 'Rubik Bold Italic';
   --font-rubik-italic: 'Rubik Italic', sans-serif;
+  --font-rubik-italic-imported: "Rubik, sans-serif;";
   --font-rubik-light: 'Rubik Light';
   --font-rubik-light-italic: 'Rubik Light Italic';
   --font-rubik-medium: 'Rubik Medium';

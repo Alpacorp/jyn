@@ -27,6 +27,7 @@ export default {
         rubikBold: ["var(--font-rubik-bold)"],
         rubikBoldItalic: ["var(--font-rubik-bolditalic)"],
         rubikItalic: ["var(--font-rubik-italic)"],
+        rubikItalicImported: ["var(--font-rubik-italic-imported)"],
         rubikLight: ["var(--font-rubik-light)"],
         rubikLightItalic: ["var(--font-rubik-lightitalic)"],
         rubikMedium: ["var(--font-rubik-medium)"],

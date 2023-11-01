@@ -7,6 +7,8 @@ import { Arrow } from "../../../../components/Icons/Arrow";
 import { Title } from "../../../../components/Title";
 import { SquareIcon } from "../../../../components/Icons/SquareIcon";
 
+import "./styles.css";
+
 export const Reviews: FC = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
@@ -50,14 +52,14 @@ export const Reviews: FC = () => {
                 <div className="flex justify-start ml-4 mb-2 mt-10">
                   <OpenQuote />
                 </div>
-                <blockquote className="text-xl font-rubikItalic leading-5">
+                <blockquote className="quote text-xl font-semibold leading-5">
                   {item.review}
                 </blockquote>
                 <div className="flex justify-end mr-4 mt-2 mb-10">
                   <CloseQuote />
                 </div>
                 <div className="bg-main rounded-b-xl relative bottom-0">
-                  <p className="text-base font-rubikItalic text-white">
+                  <p className="quote text-base font-medium font-rubikItalic text-white">
                     {item.name}
                   </p>
                 </div>

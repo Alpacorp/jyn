@@ -26,7 +26,7 @@ export const Header: FC = () => {
       <div>
         <img
           src={jynWhite}
-          className="h-28 w-64 m-3"
+          className="h-28 w-80 m-3"
           alt="JyN Abogados Logo"
           title="JyN Abogados"
         />
