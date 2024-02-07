@@ -1,9 +1,11 @@
-import { AdvisoryIcon } from "../../../../../components/Icons/AdvisoryIcon";
-import { FeeIcon } from "../../../../../components/Icons/FeeIcon";
-import { GearIcon } from "../../../../../components/Icons/GearIcon";
-import { HandsIcon } from "../../../../../components/Icons/HandsIcon";
-import { MapIcon } from "../../../../../components/Icons/MapIcon";
-import { TimeIcon } from "../../../../../components/Icons/TimeIcon";
+import {
+  AdvisoryIcon,
+  FeeIcon,
+  GearIcon,
+  HandsIcon,
+  MapIcon,
+  TimeIcon,
+} from "@components/Icons";
 
 export const useDataTrustUs = () => {
   const dataTrustUs = [

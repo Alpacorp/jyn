@@ -18,15 +18,19 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Paths */
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@components/*": ["./src/components/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@public/*": ["./public/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@hooks/*": ["./src/hooks/*"],
+    }
   },
-  "include": ["src", "public/assets"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }],
-  "paths": {
-    "@pages/*": ["./src/pages/*"],
-    "@containers/*": ["./src/containers/*"],
-    "@components/*": ["./src/components/*"],
-    "@assets/*": ["./src/assets/*"],
-    "@/public/*": ["./public/*"],
-  }
 }

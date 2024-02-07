@@ -1,7 +1,9 @@
 import { FC } from "react";
-import { Title } from "../../../../components/Title";
-import { SquareIcon } from "../../../../components/Icons/SquareIcon";
-import { whatsApp } from "../../../../../public/assets/shared";
+
+import { SquareIcon } from "@components/Icons/SquareIcon";
+import { Title } from "@components/Title";
+
+import { whatsApp } from "@assets/shared";
 
 export const WriteUs: FC = () => {
   return (

@@ -1,8 +1,9 @@
 import { FC, useEffect, useRef, useState } from "react";
 
+import { Title } from "@components/Title";
+import { TextBanner } from "@components/TextBanner";
+
 import data from "./dataSlider.json";
-import { TextBanner } from "../../../../components/TextBanner";
-import { Title } from "../../../../components/Title";
 
 interface DataProps {
   id: number;

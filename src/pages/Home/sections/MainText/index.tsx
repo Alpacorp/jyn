@@ -1,5 +1,6 @@
 import { FC } from "react";
-import { SquareIcon } from "../../../../components/Icons/SquareIcon";
+
+import { SquareIcon } from "@components/Icons";
 
 export const MainText: FC = () => {
   return (
@@ -9,9 +10,9 @@ export const MainText: FC = () => {
         tomar decisiones y{" "}
         <span className="font-rubikBold">exigir tus derechos</span>
       </h2>
-      <h3 className="text-2xl text-secondary font-bold font-martelRegular my-8">
-        Te damos la asesoría y representación jurídica
-      </h3>
+      <h1 className="text-2xl text-secondary font-bold font-martelRegular my-8">
+        Te damos asesoría y representación jurídica
+      </h1>
       <SquareIcon />
     </section>
   );

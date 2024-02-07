@@ -1,10 +1,9 @@
 import { FC } from "react";
-import { Header } from "../components/Header";
-import { TrustUs } from "../pages/Home/sections/TrustUs";
-import { Kinds } from "../pages/Home/sections/Kinds";
-import { Reviews } from "../pages/Home/sections/Reviews";
-import { WriteUs } from "../pages/Home/sections/WriteUs";
-import { Footer } from "../components/Footer";
+
+import { Kinds, Reviews, TrustUs, WriteUs } from "@pages/Home/sections";
+
+import { Footer } from "@components/Footer";
+import { Header } from "@components/Header";
 
 interface LayoutProps {
   children: React.ReactNode;

@@ -1,4 +1,5 @@
 import { FC, useState } from "react";
+
 import dataTab from "./dataTab.json";
 
 export const Tabs: FC = () => {

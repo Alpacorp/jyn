@@ -1,5 +1,6 @@
 import { FC, useEffect, useState } from "react";
-import { jynWhite, whatsApp } from "../../../public/assets/shared";
+
+import { jynWhite, whatsApp } from "@assets/shared";
 
 export const Header: FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

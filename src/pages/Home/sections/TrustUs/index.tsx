@@ -1,8 +1,11 @@
 import { FC } from "react";
-import { Title } from "../../../../components/Title";
-import { SquareIcon } from "../../../../components/Icons/SquareIcon";
-import { useDataTrustUs } from "./hooks/useDataTrustUs";
-import { useIntersection } from "../../../../hooks/useIntersection";
+
+import { useDataTrustUs } from "@pages/Home/sections";
+
+import { SquareIcon } from "@components/Icons";
+import { Title } from "@components/Title";
+
+import { useIntersection } from "@hooks/useIntersection";
 
 export const TrustUs: FC = () => {
   const { dataTrustUs } = useDataTrustUs();

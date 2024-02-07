@@ -1,8 +1,11 @@
 import { FC } from "react";
-import { Title } from "../../../../components/Title";
-import { SquareIcon } from "../../../../components/Icons/SquareIcon";
-import { useDataKind } from "./hooks/useDataKind";
-import { useIntersection } from "../../../../hooks/useIntersection";
+
+import { useDataKind } from "@pages/Home/sections";
+
+import { SquareIcon } from "@components/Icons";
+import { Title } from "@components/Title";
+
+import { useIntersection } from "@hooks/useIntersection";
 
 export const Kinds: FC = () => {
   const { dataKind } = useDataKind();

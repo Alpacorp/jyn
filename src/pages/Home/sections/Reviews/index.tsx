@@ -1,11 +1,9 @@
 import { FC, useEffect, useState } from "react";
 
+import { Title } from "@components/Title";
+import { Arrow, CloseQuote, OpenQuote, SquareIcon } from "@components/Icons";
+
 import data from "./dataReviews.json";
-import { OpenQuote } from "../../../../components/Icons/OpenQuote";
-import { CloseQuote } from "../../../../components/Icons/CloseQuote";
-import { Arrow } from "../../../../components/Icons/Arrow";
-import { Title } from "../../../../components/Title";
-import { SquareIcon } from "../../../../components/Icons/SquareIcon";
 
 import "./styles.css";
 

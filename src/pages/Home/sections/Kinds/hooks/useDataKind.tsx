@@ -1,7 +1,4 @@
-import { CareIcon } from "../../../../../components/Icons/CareIcon";
-import { CarIcon } from "../../../../../components/Icons/CarsIcon";
-import { HealthIcon } from "../../../../../components/Icons/HealthIcon";
-import { PersonIcon } from "../../../../../components/Icons/PersonIcon";
+import { CarIcon, CareIcon, HealthIcon, PersonIcon } from "@components/Icons";
 
 export const useDataKind = () => {
   const dataKind = [

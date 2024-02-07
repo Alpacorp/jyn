@@ -1,7 +1,7 @@
+import { Layout } from "@containers/Layout";
+import { Home } from "@pages/Home";
 import { FC } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Layout } from "./Layout";
-import { Home } from "../pages/Home";
 
 export const AppRouter: FC = () => {
   return (

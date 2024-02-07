@@ -1,14 +1,13 @@
 import { FC } from "react";
-import { Hero } from "./sections/Hero";
-import { AboutUs } from "./sections/AboutUs";
-import { MainText } from "./sections/MainText";
+
+import { AboutUs, Hero, MainText } from "@pages/Home/sections";
 
 export const Home: FC = () => {
   return (
-    <>
+    <main>
       <Hero />
       <MainText />
       <AboutUs />
-    </>
+    </main>
   );
 };
